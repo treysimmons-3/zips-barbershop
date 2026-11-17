@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Barbershop Website"
+description = "A fast, mobile-friendly single-page website for a neighborhood barbershop, with barber booking links, hours, directions, and a contact form that can connect to Formspree."
+version = "1.0.0"
+id = "artifacts/barbershop-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19591
+
+[services.development]
+run = "pnpm --filter @workspace/barbershop-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/barbershop-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/barbershop-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19591"
+BASE_PATH = "/"

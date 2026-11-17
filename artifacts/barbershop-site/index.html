@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- EDIT HERE: replace the business details marked throughout this file before launch. -->
+    <title>Zips Barbershop | Local Cuts &amp; Barber Appointments</title>
+    <meta name="description" content="Visit Zips Barbershop for thoughtful cuts and easy conversation. Meet our two barbers, check hours, get directions, and book your next appointment online." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- EDIT HERE: replace YOUR_DOMAIN_HERE in canonical, Open Graph, and structured-data URLs. -->
+    <link rel="canonical" href="https://YOUR_DOMAIN_HERE/" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preload" as="image" href="assets/zane-hero.jpg" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <meta property="og:title" content="Zips Barbershop | Local Cuts &amp; Barber Appointments" />
+    <meta property="og:description" content="Two barbers, two chairs, and a little more care in every cut. Book your next appointment in the neighborhood." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://YOUR_DOMAIN_HERE/" />
+    <meta property="og:image" content="https://YOUR_DOMAIN_HERE/assets/zane-hero.jpg" />
+    <meta property="og:image:alt" content="Warm, sunlit interior of Zips Barbershop with a barber working at a chair." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zips Barbershop | Local Cuts &amp; Barber Appointments" />
+    <meta name="twitter:description" content="Two barbers, two chairs, and a little more care in every cut." />
+    <meta name="twitter:image" content="https://YOUR_DOMAIN_HERE/assets/zane-hero.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["HairSalon", "LocalBusiness"],
+        "@id": "https://YOUR_DOMAIN_HERE/#business",
+        "name": "Zips Barbershop",
+        "description": "A two-chair neighborhood barbershop for thoughtful cuts and easy conversation.",
+        "url": "https://YOUR_DOMAIN_HERE/",
+        "image": "https://YOUR_DOMAIN_HERE/assets/zane-hero.jpg",
+        "telephone": "+1-334-403-2446",
+        "email": "zanegarrett@zipsbarbershop.com",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "885 Cox Creek Pkwy",
+          "addressLocality": "Florence",
+          "addressRegion": "AL",
+          "postalCode": "35630",
+          "addressCountry": "US"
+        },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "10:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "10:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "10:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "10:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "15:00" }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" data-header>
+      <div class="shell nav-wrap">
+        <a class="brand" href="#top" aria-label="Zips Barbershop home">
+          <img class="brand-logo brand-logo-invert" src="assets/zips-barbershop-logo-white.png" alt="Zips Barbershop" width="1774" height="887" />
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="menu-line"></span><span class="menu-line"></span>
+        </button>
+        <nav id="site-menu" class="site-nav" aria-label="Main navigation">
+          <a href="#barbers">Barbers</a>
+          <a href="#hours">Hours &amp; Location</a>
+          <button class="button button-small button-rust booking-trigger" type="button" data-barber="both">Book a Cut <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="shell hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> Independent · Locally owned</p>
+            <h1 id="hero-title">Fresh Cuts.</h1>
+            <p class="hero-lede">Come in, take a seat, and make yourself at home. We’ll take care of the cut.</p>
+            <div class="hero-actions">
+              <a class="button button-rust" href="#barbers">Book an Appointment <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" id="shop-details" aria-label="Shop details">
+        <div class="ticker-track">
+          <span>Walk-ins welcome when we can</span><b aria-hidden="true">·</b><span>Appointments preferred</span><b aria-hidden="true">·</b><span>Good cuts, no rush</span>
+        </div>
+      </div>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title" hidden>
+        <div class="shell about-grid">
+          <div class="section-kicker reveal"><span>01</span><span class="kicker-line"></span><span>The shop</span></div>
+          <div class="about-copy reveal reveal-delay">
+            <p class="eyebrow">A neighborhood place</p>
+            <h2 id="about-title">Come in for the cut.<br />Stay for the feeling.</h2>
+            <p class="body-large">Zips is a small, considered neighborhood barbershop. We built it for people who care about the details but do not need a big production around them.</p>
+            <p class="body-copy">No rushed appointments, no revolving door of strangers. Just a familiar chair, a sharp finish, and a little time set aside for yourself.</p>
+            <a class="text-link text-link-dark" href="#barbers">Meet the barbers <svg class="inline-icon icon-down-right" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 4 12 12M5 12h7V5" /></svg></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="barbers section-pad" id="barbers" aria-labelledby="barbers-title">
+        <div class="shell">
+          <div class="barbers-heading reveal">
+            <h2 id="barbers-title">Choose your barber.</h2>
+          </div>
+          <div class="barber-grid">
+            <!-- EDIT HERE: replace barber names, biographies, and data-barber values. -->
+            <a class="barber-card reveal" href="#" data-barber="zane" aria-label="Book with Zane Garrett">
+              <div class="barber-photo-frame"><img class="barber-photo" src="assets/zane-bio.jpg" alt="Zane Garrett, barber at Zips Barbershop" width="1341" height="1658" /></div>
+              <div class="barber-card-body">
+                <div class="barber-meta"><h3><span class="barber-first-name">Zane</span><span class="barber-last-name">Garrett</span></h3><p class="eyebrow barber-pill"><svg class="barber-pill-icon" viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true" focusable="false"><path d="M760-120 480-400l-94 94q8 15 11 32t3 34q0 66-47 113T240-80q-66 0-113-47T80-240q0-66 47-113t113-47q17 0 34 3t32 11l94-94-94-94q-15 8-32 11t-34 3q-66 0-113-47T80-720q0-66 47-113t113-47q66 0 113 47t47 113q0 17-3 34t-11 32l494 494v40H760ZM600-520l-80-80 240-240h120v40L600-520ZM296.5-663.5Q320-687 320-720t-23.5-56.5Q273-800 240-800t-56.5 23.5Q160-753 160-720t23.5 56.5Q207-640 240-640t56.5-23.5ZM494-466q6-6 6-14t-6-14q-6-6-14-6t-14 6q-6 6-6 14t6 14q6 6 14 6t14-6ZM296.5-183.5Q320-207 320-240t-23.5-56.5Q273-320 240-320t-56.5 23.5Q160-273 160-240t23.5 56.5Q207-160 240-160t56.5-23.5Z" /></svg><span>Owner / Barber · 5 years behind the chair</span></p></div>
+                <span class="button button-rust barber-card-cta">Book with Zane <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></span>
+              </div>
+            </a>
+            <a class="barber-card reveal reveal-delay" href="#" data-barber="isaac" aria-label="Book with Isaac Rodriguez">
+              <div class="barber-photo-frame"><img class="barber-photo" src="assets/isaac-bio.jpg" alt="Isaac Rodriguez, barber at Zips Barbershop" width="1341" height="1658" /></div>
+              <div class="barber-card-body">
+                <div class="barber-meta"><h3><span class="barber-first-name">Isaac</span><span class="barber-last-name">Rodriguez</span></h3><p class="eyebrow barber-pill"><svg class="barber-pill-icon" viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true" focusable="false"><path d="M760-120 480-400l-94 94q8 15 11 32t3 34q0 66-47 113T240-80q-66 0-113-47T80-240q0-66 47-113t113-47q17 0 34 3t32 11l94-94-94-94q-15 8-32 11t-34 3q-66 0-113-47T80-720q0-66 47-113t113-47q66 0 113 47t47 113q0 17-3 34t-11 32l494 494v40H760ZM600-520l-80-80 240-240h120v40L600-520ZM296.5-663.5Q320-687 320-720t-23.5-56.5Q273-800 240-800t-56.5 23.5Q160-753 160-720t23.5 56.5Q207-640 240-640t56.5-23.5ZM494-466q6-6 6-14t-6-14q-6-6-14-6t-14 6q-6 6-6 14t6 14q6 6 14 6t14-6ZM296.5-183.5Q320-207 320-240t-23.5-56.5Q273-320 240-320t-56.5 23.5Q160-273 160-240t23.5 56.5Q207-160 240-160t56.5-23.5Z" /></svg><span>Barber · 4 years behind the chair</span></p></div>
+                <span class="button button-rust barber-card-cta">Book with Isaac <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></span>
+              </div>
+            </a>
+          </div>
+          <p class="booking-note"><svg class="inline-icon note-mark" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M8 3v10M3 8h10" /></svg> Booking opens in Square Appointments. Choose your service and time there.</p>
+          <p class="inline-feedback" id="booking-feedback" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="visit section-pad" id="hours" aria-labelledby="visit-title">
+        <div class="shell visit-grid">
+          <div class="visit-intro reveal">
+            <h2 id="visit-title">Hours &amp; Location</h2>
+            <p>Drop by the shop for a fresh cut and an easy conversation. We look forward to welcoming you in.</p>
+          </div>
+          <div class="hours-card reveal reveal-delay">
+            <div class="hours-card-head"><p class="eyebrow">Open hours</p></div>
+            <!-- EDIT HERE: business hours are intentionally plain HTML for easy editing. -->
+            <dl class="hours-list">
+              <div><dt>Monday</dt><dd>Closed</dd></div>
+              <div><dt>Tuesday</dt><dd>10 AM–7 PM</dd></div>
+              <div><dt>Wednesday</dt><dd>10 AM–6 PM</dd></div>
+              <div><dt>Thursday</dt><dd>10 AM–7 PM</dd></div>
+              <div><dt>Friday</dt><dd>9 AM–6 PM</dd></div>
+              <div><dt>Saturday</dt><dd>9 AM–3 PM</dd></div>
+              <div><dt>Sunday</dt><dd>Closed</dd></div>
+            </dl>
+          </div>
+          <div class="address-card reveal reveal-delay-2" id="location">
+            <p class="eyebrow">Find us here</p>
+            <!-- EDIT HERE: replace address, phone, email, and social links. -->
+            <address><strong>Zips Barbershop</strong><br />885 Cox Creek Pkwy<br />Florence, AL 35630</address>
+            <a class="text-link text-link-dark directions-link address-directions" href="#" data-directions target="_blank" rel="noopener noreferrer">Get directions <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></a>
+            <div class="address-links"><a href="tel:+13344032446">(334) 403-2446</a><a href="mailto:zanegarrett@zipsbarbershop.com">zanegarrett@zipsbarbershop.com</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" aria-labelledby="contact-title" hidden>
+        <div class="shell contact-grid">
+          <div class="contact-intro reveal">
+            <p class="eyebrow eyebrow-light">A question?</p>
+            <h2 id="contact-title">Say hello.</h2>
+            <p>Not sure which service to book, or have a question before your first visit? Send a note and we will get back to you during shop hours.</p>
+            <span class="contact-detail">Usually replies within one business day.</span>
+          </div>
+          <form class="contact-form reveal reveal-delay" id="contact-form">
+            <!-- EDIT HERE: set FORMSPREE_ENDPOINT in script.js to your Formspree form URL. -->
+            <div class="form-row">
+              <label for="name">Name <span>*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email <span>*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone <small>optional</small></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message <span>*</span></label>
+              <textarea id="message" name="message" rows="3" required></textarea>
+            </div>
+            <div class="form-submit"><button class="button button-rust" type="submit">Send message <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-top">
+        <a class="brand brand-footer" href="#top" aria-label="Zips Barbershop home"><img class="brand-logo brand-logo-invert" src="assets/zips-barbershop-logo-white.png" alt="Zips Barbershop" width="1774" height="887" /></a>
+        <p class="footer-tag">Good cuts, close to home.</p>
+        <!-- EDIT HERE: replace the Instagram URL and email before launch. -->
+        <div class="footer-socials"><a href="https://www.instagram.com/zipsbarbershop/" target="_blank" rel="noopener noreferrer">@zipsbarbershop <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></a><a href="mailto:zanegarrett@zipsbarbershop.com">Email <svg class="inline-icon icon-external" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" /></svg></a></div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>© <span data-current-year></span> Zips Barbershop</span><span>885 Cox Creek Pkwy · Florence, AL 35630</span><a href="#top">Back to top <svg class="inline-icon icon-up" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M8 13V3M4 7l4-4 4 4" /></svg></a>
+      </div>
+    </footer>
+
+    <div class="mobile-actions" aria-label="Quick actions">
+      <a href="#barbers"><svg class="mobile-action-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg> Book a Cut</a>
+      <a class="mobile-directions" href="#" data-directions target="_blank" rel="noopener noreferrer"><svg class="mobile-action-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M4 12 12 4M5 4h7v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg> Directions</a>
+    </div>
+
+    <dialog class="setup-dialog" id="setup-dialog" aria-labelledby="setup-dialog-title">
+      <div class="dialog-inner">
+        <button class="dialog-close" type="button" data-dialog-close aria-label="Close message"><svg class="inline-icon icon-close" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="m4 4 8 8M12 4 4 12" /></svg></button>
+        <p class="eyebrow">One small setup step</p>
+        <h2 id="setup-dialog-title">Booking is almost ready.</h2>
+        <p id="setup-dialog-copy">Replace the booking URL placeholder in <code>script.js</code> with the barber's Google Calendar Appointment Schedule link. This button will then open it in a new tab.</p>
+        <button class="button button-dark" type="button" data-dialog-close>Got it</button>
+      </div>
+    </dialog>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
