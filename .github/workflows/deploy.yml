@@ -37,7 +37,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: artifacts/barbershop-site/dist
+          path: artifacts/barbershop-site/dist/public
 
       - id: deployment
         uses: actions/deploy-pages@v4
